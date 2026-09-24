@@ -1,0 +1,5 @@
+node_modules/
+.vercel/
+*.log
+.pm2/
+.DS_Store

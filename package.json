@@ -1,0 +1,11 @@
+{
+  "name": "airflot",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "airflot placeholder app (static server + SSR placeholder) — seeded 2026-09-24",
+  "scripts": {
+    "start:pwa": "node airflot-static.mjs",
+    "start:ssr": "node airflot-ssr.mjs"
+  }
+}
