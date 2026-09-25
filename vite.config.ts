@@ -152,9 +152,10 @@ export default defineConfig(({ command, isPreview }) => ({
     strictPort: true,
   },
   preview: {
-    host: "127.0.0.1",
+    host: "0.0.0.0",
     port: 8081,
     strictPort: true,
+    allowedHosts: ["dev-airflot.dzenfoto.com", "airflot.dzenfoto.com", "uat-airflot.dzenfoto.com"],
   },
   resolve: { tsconfigPaths: true },
   plugins: [
