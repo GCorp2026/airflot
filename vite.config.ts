@@ -150,6 +150,7 @@ export default defineConfig(({ command, isPreview }) => ({
     host: "0.0.0.0",
     port: 8080,
     strictPort: true,
+    allowedHosts: ["dev-airflot.dzenfoto.com", "airflot.dzenfoto.com", "uat-airflot.dzenfoto.com"],
   },
   preview: {
     host: "0.0.0.0",
