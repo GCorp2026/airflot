@@ -1,5 +1,5 @@
-declare module "virtual:grok-og-identity" {
-  export const grokOgIdentity: {
+declare module "virtual:airflot-og-identity" {
+  export const airflotOgIdentity: {
     site: {
       title?: string;
       description?: string;
