@@ -23,8 +23,8 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Pixelify+Sans:wght@500;600;700&display=swap",
       },
-      { rel: "manifest", href: "/__grok/manifest.webmanifest" },
-      { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },
+      { rel: "manifest", href: "/__airflot/manifest.webmanifest" },
+      { rel: "apple-touch-icon", href: "/__airflot/icon-180.png" },
     ],
   }),
   component: () => (
